@@ -1,5 +1,5 @@
 % Charger l'image "morp.tif"
-img = imread("Documents/ISEN/CIPA5/ImageTraitement/TP/Ressources/morp.tif","tif");
+img = imread("Ressources/morp.tif","tif");
 
 % Afficher l'image originale
 figure;

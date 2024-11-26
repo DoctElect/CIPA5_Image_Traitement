@@ -1,4 +1,4 @@
-image = imread("Documents/ISEN/CIPA5/ImageTraitement/TP/Ressources/chiffres.png","png");
+image = imread("Ressources/chiffres.png","png");
 
 img_gray = rgb2gray(image);
 
@@ -18,6 +18,9 @@ title('Image binaire après seuillage');
 
 % Étiquetage des objets
 [img_label, num_objects] = bwlabel(img_binary);
+
+figure;
+imshow(img_label);
 
 % Afficher le nombre d'objets détectés
 fprintf('Nombre d''objets détectés : %d\n', num_objects);

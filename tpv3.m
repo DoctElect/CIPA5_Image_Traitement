@@ -1,4 +1,4 @@
-image = imread("Documents/ISEN/CIPA5/ImageTraitement/TP/Ressources/fleurs.jpg","jpg");
+image = imread("Ressources/fleurs.jpg","jpg");
 
 % Vérifier si l'image est bien en couleur (RGB)
 if size(image, 3) ~= 3

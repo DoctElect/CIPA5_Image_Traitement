@@ -1,4 +1,4 @@
-img = imread("Documents/ISEN/CIPA5/ImageTraitement/TP/Ressources/cameraman.jpg",'jpg');
+img = imread("Ressources/cameraman.jpg",'jpg');
 img_nv_g = rgb2gray(img);
 
 % Appliquer le filtre de Canny
